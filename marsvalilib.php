@@ -65,6 +65,16 @@ class Validationlibrary{
             return false;
         }
     }
+    function checklength($value,$length){
+        $this->setlengthvalue($value);
+        $this->setlength($length);
+        if($this->getlenthvalue()>$this->getlength()){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
 
 //Email validation
