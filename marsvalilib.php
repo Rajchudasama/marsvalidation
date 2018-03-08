@@ -63,7 +63,7 @@ class Validationlibrary{
     //Postal code validation
     function postal_validate($data){
         $pattern = "/[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d/";
-        if(!preg_match($pattern, $data)){
+        if(preg_match($pattern, $data)){
             return true;
 
         }else{
