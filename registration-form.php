@@ -56,10 +56,7 @@ if(isset($_POST['f_Submit'])){
     
 
 
-<<<<<<< HEAD
-   
-=======
->>>>>>> f0645e957622430f32b6207d046ceaf2a678b330
+
 }
 ?>
 <html lang="en">

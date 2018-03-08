@@ -13,22 +13,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="marsvalilib.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="marsvalilib.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/marsvalilib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="710">
               <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration-form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registration-form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration-form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
+            <state relative-caret-position="372">
               <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-              <folding />
+              <folding>
+                <marker date="1520481269229" expanded="true" signature="1369:1939" ph="..." />
+                <marker date="1520481269229" expanded="true" signature="1376:1581" ph="..." />
+                <marker date="1520481269229" expanded="true" signature="1588:1931" ph="..." />
+                <marker date="1520481269229" expanded="true" signature="1597:1650" ph="..." />
+                <marker date="1520481269229" expanded="true" signature="1657:1861" ph="..." />
+                <marker date="1520481269229" expanded="true" signature="1787:1853" ph="..." />
+                <marker date="1520481269229" expanded="true" signature="1870:1923" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +127,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520471212797</updated>
-      <workItem from="1520471214775" duration="6265000" />
+      <workItem from="1520471214775" duration="6774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6265000" />
+    <option name="totallyTimeSpent" value="6774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -161,18 +169,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/marsvalilib.php">
+    <entry file="file://$PROJECT_DIR$/registration-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="372">
+          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <marker date="1520481269229" expanded="true" signature="1369:1939" ph="..." />
+            <marker date="1520481269229" expanded="true" signature="1376:1581" ph="..." />
+            <marker date="1520481269229" expanded="true" signature="1588:1931" ph="..." />
+            <marker date="1520481269229" expanded="true" signature="1597:1650" ph="..." />
+            <marker date="1520481269229" expanded="true" signature="1657:1861" ph="..." />
+            <marker date="1520481269229" expanded="true" signature="1787:1853" ph="..." />
+            <marker date="1520481269229" expanded="true" signature="1870:1923" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration-form.php">
+    <entry file="file://$PROJECT_DIR$/marsvalilib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        <state relative-caret-position="710">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding />
         </state>
       </provider>
