@@ -1,5 +1,8 @@
 <?php
 class Validationlibrary{
+    //compare validation
+    private $comparevalue1;
+    private $comparevalue2;
 
     function isString($value){
         //removes extra space characters
@@ -22,6 +25,20 @@ class Validationlibrary{
             return false;
         }
     }
+    //getter and setter for compare validator
+    function setcomparevalue1($value){
+        $this->comparevalue1=trim($value);
+    }
+    function setcomparevalue2($value){
+        $this->comparevalue2=trim($value);
+    }
+    function getcomparevalue1(){
+        return $this->comparevalue1;
+    }
+    function getcomparevalue2(){
+        return $this->comparevalue2;
+    }
+
 
 
 
