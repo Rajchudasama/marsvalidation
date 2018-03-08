@@ -64,7 +64,7 @@ if(isset($_POST['f_Submit'])){
         $error.="Password does not match";
     }
     else{
-        
+
     }
 
 }
