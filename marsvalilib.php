@@ -53,7 +53,7 @@ class Validationlibrary{
 
 //Email validation
     function email_validation($data){
-        if(!filter_var($data,FILTER_VALIDATE_EMAIL)){
+        if(filter_var($data,FILTER_VALIDATE_EMAIL)){
             return true;
         }else{
             return false;
