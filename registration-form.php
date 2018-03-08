@@ -41,6 +41,8 @@ if(isset($_POST['f_Submit'])){
     $name = $_POST['f_Name'];
     $dob = $_POST['f_Dob'];
     $password = $_POST['f_Password'];
+    $reenter = $_POST['f_password2'];
+
 
     if(!$v->isString($name)){
         $error.="only characters";
@@ -54,6 +56,14 @@ if(isset($_POST['f_Submit'])){
     {
         $error.="10 to 14 digit number is required";
     }else{
+        
+    }
+
+    if(!$v->compareValidation($password, $reenter))
+    {
+        $error.="Password does not match";
+    }
+    else{
         
     }
 
