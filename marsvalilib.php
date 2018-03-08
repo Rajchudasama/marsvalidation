@@ -13,6 +13,17 @@ class Validationlibrary{
             return false;
         }
     }
+    function isNumber($value){
+        $Value=trim($value);
+        if(ctype_alnum($Value)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+
 
 }
 
