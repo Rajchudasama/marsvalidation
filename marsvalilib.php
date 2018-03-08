@@ -3,6 +3,9 @@ class Validationlibrary{
     //compare validation
     private $comparevalue1;
     private $comparevalue2;
+    //length validation
+    private $length;
+    private $lengthvalue;
 
     function isString($value){
         //removes extra space characters
@@ -24,6 +27,19 @@ class Validationlibrary{
         else{
             return false;
         }
+    }
+    //getter setter for length
+    function getlength(){
+        return $this->length;
+    }
+    function setlength($value){
+        $this->length=$value;
+    }
+    function getlenthvalue(){
+        return $this->lengthvalue;
+    }
+    function setlengthvalue($value){
+        $this->lengthvalue=$value;
     }
     //getter and setter for compare validator
     function setcomparevalue1($value){
