@@ -104,5 +104,14 @@ class Validationlibrary{
             return false;
         }
     }
+    function agevalidation($age,$minage,$maxage){
+        if($age>$minage&&$age<$maxage){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }
+
 
