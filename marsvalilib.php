@@ -97,7 +97,7 @@ class Validationlibrary{
     }
     function mobile_validate($data){
         $pattern = "/[0-9]{10,14}/";
-        if(!preg_match($pattern, $data)){
+        if(preg_match($pattern, $data)){
             return true;
 
         }else{
