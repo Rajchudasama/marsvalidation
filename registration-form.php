@@ -48,7 +48,13 @@ if(isset($_POST['f_Submit'])){
     }else{
 
     }
+    if(!$v->email_validation($email)){
+        $error.="invalid email";
+    }else{
+
+    }
     
+
 
    
 }
