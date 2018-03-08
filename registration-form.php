@@ -1,4 +1,6 @@
 <?php
+require_once ('marsvalilib.php');
+$v=new Validationlibrary();
 $error ="";
 $name ="";
 $email ="";
@@ -39,6 +41,14 @@ if(isset($_POST['f_Submit'])){
     $name = $_POST['f_Name'];
     $dob = $_POST['f_Dob'];
     $password = $_POST['f_Password'];
+    if(!$v->isString($name)){
+        $error.="only characters";
+    }elseif (!$v->checklength($name,10)) {
+        $error .= "not more than 10 character";
+    }else{
+
+    }
+    
 
    
 }

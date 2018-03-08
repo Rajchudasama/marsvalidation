@@ -68,7 +68,7 @@ class Validationlibrary{
     function checklength($value,$length){
         $this->setlengthvalue($value);
         $this->setlength($length);
-        if($this->getlenthvalue()>$this->getlength()){
+        if(strlen($value)<$length){
             return true;
         }
         else{

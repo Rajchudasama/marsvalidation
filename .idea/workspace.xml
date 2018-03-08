@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a945f89f-6e6b-4642-b0aa-794820253cbc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/marsvalilib.php" afterPath="$PROJECT_DIR$/marsvalilib.php" />
+      <change beforePath="$PROJECT_DIR$/registration-form.php" afterPath="$PROJECT_DIR$/registration-form.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="marsvalilib.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="marsvalilib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/marsvalilib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="335">
+              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration-form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registration-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -32,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/marsvalilib.php" />
+        <option value="$PROJECT_DIR$/registration-form.php" />
       </list>
     </option>
   </component>
@@ -108,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520471212797</updated>
-      <workItem from="1520471214775" duration="4832000" />
+      <workItem from="1520471214775" duration="5885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4832000" />
+    <option name="totallyTimeSpent" value="5885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -152,8 +165,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/marsvalilib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="335">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding />
         </state>
       </provider>
