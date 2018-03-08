@@ -15,7 +15,7 @@ class Validationlibrary{
     }
     function isNumber($value){
         $Value=trim($value);
-        if(ctype_alnum($Value)){
+        if(ctype_digit($Value)){
             return true;
         }
         else{
