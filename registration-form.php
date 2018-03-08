@@ -41,6 +41,7 @@ if(isset($_POST['f_Submit'])){
     $name = $_POST['f_Name'];
     $dob = $_POST['f_Dob'];
     $password = $_POST['f_Password'];
+
     if(!$v->isString($name)){
         $error.="only characters";
     }elseif (!$v->checklength($name,10)) {
@@ -48,8 +49,13 @@ if(isset($_POST['f_Submit'])){
     }else{
 
     }
-    
 
+    if(!$v->mobile_validate($phone))
+    {
+        $error.="10 to 14 digit number is required";
+    }else{
+        
+    }
 
 }
 ?>
