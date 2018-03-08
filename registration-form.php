@@ -40,7 +40,7 @@ if(isset($_POST['f_Submit'])){
     $dob = $_POST['f_Dob'];
     $password = $_POST['f_Password'];
 
-   
+
 }
 ?>
 <html lang="en">
