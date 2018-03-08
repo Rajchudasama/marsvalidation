@@ -59,7 +59,6 @@ class Validationlibrary{
             return false;
         }
     }
-
     //Postal code validation
     function postal_validate($data){
         $pattern = "/[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d/";
@@ -70,5 +69,5 @@ class Validationlibrary{
             return false;
         }
     }
-}
+    }
 
