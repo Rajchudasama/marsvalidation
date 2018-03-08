@@ -41,9 +41,6 @@ if(isset($_POST['f_Submit'])){
     $name = $_POST['f_Name'];
     $dob = $_POST['f_Dob'];
     $password = $_POST['f_Password'];
-    $reenter = $_POST['f_password2'];
-
-
     if(!$v->isString($name)){
         $error.="only characters";
     }elseif (!$v->checklength($name,10)) {
@@ -51,22 +48,24 @@ if(isset($_POST['f_Submit'])){
     }else{
 
     }
-
-    if(!$v->mobile_validate($phone))
-    {
-        $error.="10 to 14 digit number is required";
+    if(!$v->email_validation($email)){
+        $error.="invalid email";
     }else{
-        
-    }
 
+<<<<<<< HEAD
     if(!$v->compareValidation($password, $reenter))
     {
         $error.="Password does not match";
     }
     else{
 
+=======
+>>>>>>> 1b88a8e8729e9f33c57095d6ac1f799b710ac1c7
     }
 
+
+
+   
 }
 ?>
 <html lang="en">

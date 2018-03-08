@@ -16,8 +16,8 @@
       <file leaf-file-name="marsvalilib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/marsvalilib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            <state relative-caret-position="760">
+              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -26,9 +26,17 @@
       <file leaf-file-name="registration-form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/registration-form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="160">
+              <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+              <folding>
+                <marker date="1520481544935" expanded="true" signature="1368:1938" ph="..." />
+                <marker date="1520481544935" expanded="true" signature="1375:1580" ph="..." />
+                <marker date="1520481544935" expanded="true" signature="1587:1930" ph="..." />
+                <marker date="1520481544935" expanded="true" signature="1596:1649" ph="..." />
+                <marker date="1520481544935" expanded="true" signature="1656:1860" ph="..." />
+                <marker date="1520481544935" expanded="true" signature="1786:1852" ph="..." />
+                <marker date="1520481544935" expanded="true" signature="1869:1922" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +127,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520471212797</updated>
-      <workItem from="1520471214775" duration="6265000" />
+      <workItem from="1520471214775" duration="7057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6265000" />
+    <option name="totallyTimeSpent" value="7057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -163,17 +171,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/marsvalilib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        <state relative-caret-position="760">
+          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/registration-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+          <folding>
+            <marker date="1520481544935" expanded="true" signature="1368:1938" ph="..." />
+            <marker date="1520481544935" expanded="true" signature="1375:1580" ph="..." />
+            <marker date="1520481544935" expanded="true" signature="1587:1930" ph="..." />
+            <marker date="1520481544935" expanded="true" signature="1596:1649" ph="..." />
+            <marker date="1520481544935" expanded="true" signature="1656:1860" ph="..." />
+            <marker date="1520481544935" expanded="true" signature="1786:1852" ph="..." />
+            <marker date="1520481544935" expanded="true" signature="1869:1922" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
