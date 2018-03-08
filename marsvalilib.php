@@ -38,6 +38,17 @@ class Validationlibrary{
     function getcomparevalue2(){
         return $this->comparevalue2;
     }
+    //compare validation
+    function compareValidation($value,$comparevalue){
+        $this->setcomparevalue1($value);
+        $this->setcomparevalue2($comparevalue);
+        if($this->getcomparevalue1()==$this->getcomparevalue2()){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
 
 
